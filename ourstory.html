@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- Informs it's html-->
+<html>
+  <!-- for browser to read-->
+  <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- to use in different browsers-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- allows scaling eg. in mobile-desktop-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+    <title>Wooter</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <div id="myLinks">
+        <a href="index.html" target="_blank">Home</a>
+        <a href="ourstory.html" target="_blank">Our story</a>
+        <a href="products.html" target="_blank">Products</a>
+        <a href="ourmission.html" target="_blank">Our mission</a>
+        <a href="support.html" target="_blank">Support Nature</a>
+        <a href="contact.html" target="_blank">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="wrapper">
+      <article class="aboutus">
+        <h2>About Us</h2>
+        <p>
+          We are a Danish innovative company, founded by the international
+          friends Natalia,Claire,Alexandra,Lilla and Jevgenia. All of us are
+          interested in protecting and saving the environment. There are so much
+          issues about that theme. We decided to make people think about their
+          own health and also to be apart of saving the planet when they buy one
+          of our special bamboo bottle. With so much love,patience and time we
+          established “Wooter” in early 2019 to fulfill people own needs for a
+          sustainable, unique and reusable drinking bottle.After the success of
+          ‘Wooter’ and the growing interest in bamboo products, our products
+          were launched;
+        </p>
+      </article>
+      <img
+        class="aboutus_img"
+        src="environment.PNG"
+        alt="Environment"
+        style="width:80%"
+      />
+
+      <article class="whatwe">
+        <h3>What do we do!</h3>
+        <p>
+          >We believe sustainable handmade designs can change consumer
+          behaviour. Our innovative bottle 'Wooter' was created and developed by
+          us, and is the world's first handcrafted one-piece bamboo bottle with
+          a re-usable silicone inlay and lid. Each individual bottle is hand
+          drilled in local Indian homes, using skills passed down through
+          families. Why we do it? Our personal interests and values in
+          eco-sustainability also on how a product can be responsibly produced,
+          using natural materials, limiting waste throughout the production
+          process, and supporting communities in rural areas. Our mission is to
+          provide access to safe filtered drinking water in 1st, 2nd and 3rd
+          world countries.
+        </p>
+      </article>
+
+      <article class="whywe">
+        <h3>Why we do it?</h3>
+        <p>
+          Our personal interests and values in eco-sustainability also on how a
+          product can be responsibly produced, using natural materials, limiting
+          waste throughout the production process, and supporting communities in
+          rural areas. Our mission is to provide access to safe filtered
+          drinking water in 1st, 2nd and 3rd world countries.
+        </p>
+      </article>
+    </div>
+
+    <footer>
+      <img src="footer_1.jpg" alt="#" style="width:50px" />
+      <img src="footer_2.png" alt="#" style="width:50px" />
+      <img src="footer_3.png" alt="#" style="width:50px" />
+      <img src="footer_4.png" alt="#" style="width:50px" />
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>

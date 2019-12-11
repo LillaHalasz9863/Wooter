@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Informs it's html-->
+<html>
+  <!-- for browser to read-->
+  <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- to use in different browsers-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- allows scaling eg. in mobile-desktop-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+    <title>Wooter</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <div id="myLinks">
+        <a href="index.html" target="_blank">Home</a>
+        <a href="ourstory.html" target="_blank">Our story</a>
+        <a href="products.html" target="_blank">Products</a>
+        <a href="ourmission.html" target="_blank">Our mission</a>
+        <a href="support.html" target="_blank">Support Nature</a>
+        <a href="contact.html" target="_blank">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="wrapper">
+      <article class="situation">
+        <h2>Situation in India</h2>
+        <img src="ocean2.png" alt="Ocean" style="width:80%" />
+        <h3>India loses natural resources to economic growth</h3>
+        <p>
+          India is the second most populous country in the world, with more than
+          1 billion citizens. A staggering 344 million practice open defecation.
+          The World Bank estimates that 21 percent of communicable diseases in
+          India are linked to unsafe water and the lack of hygiene practices.
+          Further, more than 500 children under the age of five die each day
+          from diarrhea in India alone. In the last 6 years, the rate of growth
+          of forest stock has reduced by more than 10% in almost all
+          states.Climate change has had a huge impact on water resources.
+        </p>
+      </article>
+
+      <article class="help">
+        <h2>How do we help ?</h2>
+        <img src="familis.png" alt="Ocean" style="width:80%" />
+        <h3>Solution</h3>
+        <p>
+          Our solution is to provide them jobs as bottle makers for our company
+          which will help them earn more money to build wells for catching water
+          from which they can make drinking water as well. Because this this
+          approach need more supports, we made a deal with our partners that 15
+          percent of monthly revenue is going to be send to these villages for
+          making more wells.
+        </p>
+      </article>
+    </div>
+
+    <footer>
+      <img src="footer_1.jpg" alt="#" style="width:50px" />
+      <img src="footer_2.png" alt="#" style="width:50px" />
+      <img src="footer_3.png" alt="#" style="width:50px" />
+      <img src="footer_4.png" alt="#" style="width:50px" />
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Informs it's html-->
+<html>
+  <!-- for browser to read-->
+  <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- to use in different browsers-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- allows scaling eg. in mobile-desktop-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+    <title>Wooter</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <div id="myLinks">
+        <a href="index.html" target="_blank">Home</a>
+        <a href="ourstory.html" target="_blank">Our story</a>
+        <a href="products.html" target="_blank">Products</a>
+        <a href="ourmission.html" target="_blank">Our mission</a>
+        <a href="support.html" target="_blank">Support Nature</a>
+        <a href="contact.html" target="_blank">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="wrapper">
+      <h2 class="prod1">Choose your style</h2>
+      <div class="box1">
+        <img class="box-img" src="box_1.png" alt="#" />
+        <p>349 DKK</p>
+        <button class="btn">Buy now</button>
+      </div>
+
+      <div class="box2">
+        <img class="box-img" src="box_2.png" alt="#" />
+        <p>349 DKK</p>
+        <button class="btn">Buy now</button>
+      </div>
+
+      <h2 class="prod2">or personalize it!</h2>
+      <div class="box3">
+        <img class="box-img" src="box_3.png" alt="#" />
+        <p>449 DKK</p>
+        <button class="btn">Buy now</button>
+      </div>
+
+      <div class="box4">
+        <img class="box-img" src="box_4.png" alt="#" />
+        <p>449 DKK</p>
+        <button class="btn">Buy now</button>
+      </div>
+
+      <h2 class="prod3">Clean it easily</h2>
+      <div class="box5">
+        <img class="box-img" src="brush.jpg" alt="#" />
+        <p>39 DKK</p>
+        <button class="btn">Buy now</button>
+      </div>
+
+      <h2 class="prod4">Don't forget to change the top</h2>
+      <div class="box6">
+        <img class="box-img" src="lid1.jpg" alt="#" />
+        <p>49 DKK</p>
+        <button class="btn">Buy now</button>
+      </div>
+
+      <div class="box7">
+        <img class="box-img" src="lid2.jpeg" alt="#" />
+        <p>49 DKK</p>
+        <button class="btn">Buy now</button>
+      </div>
+    </div>
+
+    <footer>
+      <img src="footer_1.jpg" alt="#" style="width:50px" />
+      <img src="footer_2.png" alt="#" style="width:50px" />
+      <img src="footer_3.png" alt="#" style="width:50px" />
+      <img src="footer_4.png" alt="#" style="width:50px" />
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Informs it's html-->
+<html>
+  <!-- for browser to read-->
+  <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout-->
+  <head>
+    <meta charset="utf-8" />
+    <!-- to use in different browsers-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- allows scaling eg. in mobile-desktop-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+    <title>Wooter</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <div id="myLinks">
+        <a href="index.html" target="_blank">Home</a>
+        <a href="ourstory.html" target="_blank">Our story</a>
+        <a href="products.html" target="_blank">Products</a>
+        <a href="ourmission.html" target="_blank">Our mission</a>
+        <a href="support.html" target="_blank">Support Nature</a>
+        <a href="contact.html" target="_blank">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="wrapper">
+      <article class="onebamb">
+        <h2 class="header-title">Plant your bamboo</h2>
+        <p>ONE Wooter = ONE Bamboo planted</p>
+        <p>
+          For each one purchased we 'll plant a bamboo! Bamboo fibre is a fast
+          growing, sustainable resource. Wooter is official partner with the
+          National Forest Foundation (NFF), a tree planting charity.
+        </p>
+        <img src="hands.jpg" alt="hands" class="container-image" />
+      </article>
+      <article class="change">
+        <h2 class="header-title">Nutrition for your plants</h2>
+        <img src="plants.jpg" alt="plants" class="container-image" />
+        <p>
+          We need to change our habits to save our planet! Wooter not only
+          replace single-use plastic, it's also can be used as nutrition for
+          plant after consumption. Just put it n the plant pot.
+        </p>
+      </article>
+    </div>
+    <footer>
+      <img src="footer_1.jpg" alt="#" style="width:50px" />
+      <img src="footer_2.png" alt="#" style="width:50px" />
+      <img src="footer_3.png" alt="#" style="width:50px" />
+      <img src="footer_4.png" alt="#" style="width:50px" />
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
